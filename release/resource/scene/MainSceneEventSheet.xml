@@ -1,0 +1,1473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventSheets layout="MainScene" previous="" next="" version="2.2">
+  <item type="instance" UID="4496"/>
+  <item type="instance" UID="4493"/>
+  <item type="instance" UID="3899">
+    <item initValue="0" variableType="number" variableName="fire" type="variable"/>
+    <item type="behavior" behaviorType="ScrollToBehavior" name="摄像机">
+      <item valueDataType="boolean" value="true" name="isBounds"/>
+    </item>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="30" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.5" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4485">
+    <item initValue="3" variableType="number" variableName="hp" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.3" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4484">
+    <item initValue="3" variableType="number" variableName="hp" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.3" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4483">
+    <item initValue="3" variableType="number" variableName="hp" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.3" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4482">
+    <item initValue="3" variableType="number" variableName="hp" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.3" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4481">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4480">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4479">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4478">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4477">
+    <item initValue="3" variableType="number" variableName="hp" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.3" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4476">
+    <item initValue="3" variableType="number" variableName="hp" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.3" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4475">
+    <item initValue="3" variableType="number" variableName="hp" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.3" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4474">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4473">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4472">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4471">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4466">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4465">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4464">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4463">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4459">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4458">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4457">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4456">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4455">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4454">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4453">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="3920">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="3919">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="3903">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="3902">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="3901">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="3900">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="3886">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="3885">
+    <item initValue="1" variableType="number" variableName="n" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.6" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="3873">
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="1" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="7">
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="1" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.3" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="6">
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="1" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="1" name="friction"/>
+      <item valueDataType="number" value="0" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="5">
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="1" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="1" name="friction"/>
+      <item valueDataType="number" value="0" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4443">
+    <item initValue="3" variableType="number" variableName="hp" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.3" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4442">
+    <item initValue="3" variableType="number" variableName="hp" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.3" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="3922">
+    <item initValue="3" variableType="number" variableName="hp" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.3" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="3906">
+    <item type="behavior" behaviorType="ScrollToBehavior" name="摄像机">
+      <item valueDataType="boolean" value="true" name="isBounds"/>
+    </item>
+  </item>
+  <item type="instance" UID="4462">
+    <item initValue="3" variableType="number" variableName="hp" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.3" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4461">
+    <item initValue="3" variableType="number" variableName="hp" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.3" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4460">
+    <item initValue="3" variableType="number" variableName="hp" type="variable"/>
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="2" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.3" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4488">
+    <item type="behavior" behaviorType="PhysicsBehavior" name="物理">
+      <item valueDataType="number" value="1" name="isStatic"/>
+      <item valueDataType="number" value="2" name="supportDrag"/>
+      <item valueDataType="number" value="5000" name="dragMaxForce"/>
+      <item valueDataType="number" value="0" name="useCustomGravity"/>
+      <item valueDataType="number" value="0" name="gravityX"/>
+      <item valueDataType="number" value="10" name="gravityY"/>
+      <item valueDataType="number" value="3" name="density"/>
+      <item valueDataType="number" value="0.5" name="friction"/>
+      <item valueDataType="number" value="0.3" name="restitution"/>
+      <item valueDataType="number" value="2" name="isSensor"/>
+      <item valueDataType="number" value="2" name="isBullet"/>
+      <item valueDataType="number" value="2" name="isFixedRotation"/>
+      <item valueDataType="number" value="1" name="isActive"/>
+      <item valueDataType="number" value="2" name="isFilter"/>
+      <item valueDataType="number" value="1" name="groupIndex"/>
+      <item valueDataType="number" value="2" name="categoryBits"/>
+      <item valueDataType="number" value="2" name="maskBits"/>
+      <item valueDataType="number" value="2" name="isDebug"/>
+    </item>
+  </item>
+  <item type="instance" UID="4499"/>
+  <item type="instance" UID="2"/>
+  <item type="instance" UID="3912">
+    <item type="behavior" behaviorType="FadeBehavior" name="淡入淡出">
+      <item valueDataType="number" value="1" name="activeAtStartType"/>
+      <item valueDataType="number" value="0" name="fadeInTime"/>
+      <item valueDataType="number" value="0" name="waitTime"/>
+      <item valueDataType="number" value="1" name="fadeOutTime"/>
+      <item valueDataType="number" value="1" name="loopTimes"/>
+      <item valueDataType="number" value="1" name="destoryType"/>
+    </item>
+  </item>
+  <item type="variable" variableName="接受触屏" variableType="number" initValue="0"/>
+  <item type="variable" variableName="开启碰撞" variableType="number" initValue="0"/>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnSceneInitCompleteEvent" callName="onSceneInitComplete" isTrigger="true" target="System"/>
+    <item type="action" persistent="false" callTarget="instance" callName="destory" target="alien"/>
+    <item type="action" persistent="false" callTarget="instance" callName="wait" target="System">
+      <item valueDataType="number" value="1" name="time"/>
+    </item>
+    <item type="action" persistent="true" callTarget="instance" callName="execTween" target="shadow">
+      <item valueDataType="string" value="%22intro%22" name="key"/>
+      <item valueDataType="number" value="1100" name="x"/>
+      <item valueDataType="number" value="" name="y"/>
+      <item valueDataType="number" value="" name="anchorX"/>
+      <item valueDataType="number" value="" name="anchorY"/>
+      <item valueDataType="number" value="" name="width"/>
+      <item valueDataType="number" value="" name="height"/>
+      <item valueDataType="number" value="" name="rotation"/>
+      <item valueDataType="number" value="" name="alpha"/>
+      <item valueDataType="number" value="6000" name="duration"/>
+      <item valueDataType="string" value="%22line%22" name="ease"/>
+      <item valueDataType="number" value="0" name="waitTime"/>
+      <item valueDataType="number" value="0" name="loop"/>
+      <item valueDataType="number" value="1" name="scaleX"/>
+      <item valueDataType="number" value="1" name="scaleY"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="接受触屏" name="10" variable="true"/>
+      <item valueDataType="any" value="1" name="9"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setIsActive" target="AISprite4487" behaviorName="物理">
+      <item valueDataType="number" value="2" name="isActive"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="destory" target="AISprite3911"/>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite3917">
+      <item valueDataType="string" value="hp" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22lessOrEqual%22" name="operationType"/>
+      <item valueDataType="any" value="0" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="spawn" target="AISprite3917">
+      <item valueDataType="string" value="AISprite3911" name="10" isFamily="false"/>
+      <item valueDataType="number" value="0" name="11"/>
+      <item valueDataType="number" value="0" name="12"/>
+      <item valueDataType="number" value="0" name="13"/>
+      <item valueDataType="number" value="0" name="14"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="destory" target="AISprite3917"/>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite3917">
+      <item valueDataType="string" value="hp" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="1" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="gotoAndStop" target="AISprite3917">
+      <item valueDataType="number" value="3" name="4"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite3917">
+      <item valueDataType="string" value="hp" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="2" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="gotoAndStop" target="AISprite3917">
+      <item valueDataType="number" value="2" name="4"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite3917">
+      <item valueDataType="string" value="hp" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="3" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="gotoAndStop" target="AISprite3917">
+      <item valueDataType="number" value="1" name="4"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnCollisionWithOtherObjectEvent" callName="onCollisionWithOtherObject" isTrigger="true" target="AISprite3917">
+      <item valueDataType="string" value="alien" name="object" isFamily="false"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="subtractFrom" target="AISprite3917">
+      <item valueDataType="string" value="hp" name="10" variable="true"/>
+      <item valueDataType="number" value="1" name="11"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite3878">
+      <item valueDataType="string" value="n" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="1" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="gotoAndStop" target="AISprite3878">
+      <item valueDataType="number" value="1" name="4"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AIMovieClip3881">
+      <item valueDataType="string" value="n" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22greaterOrEqual%22" name="operationType"/>
+      <item valueDataType="any" value="3" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="destory" target="AIMovieClip3881"/>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite3878">
+      <item valueDataType="string" value="n" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="2" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="gotoAndStop" target="AISprite3878">
+      <item valueDataType="number" value="2" name="4"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AISprite3878">
+      <item valueDataType="string" value="n" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22greaterOrEqual%22" name="operationType"/>
+      <item valueDataType="any" value="3" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="destory" target="AISprite3878"/>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnCollisionWithOtherObjectEvent" callName="onCollisionWithOtherObject" isTrigger="true" target="AIMovieClip3881">
+      <item valueDataType="string" value="alien" name="object" isFamily="false"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="addTo" target="AIMovieClip3881">
+      <item valueDataType="string" value="n" name="10" variable="true"/>
+      <item valueDataType="number" value="1" name="11"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnCollisionWithOtherObjectEvent" callName="onCollisionWithOtherObject" isTrigger="true" target="AISprite3878">
+      <item valueDataType="string" value="alien" name="object" isFamily="false"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="addTo" target="AISprite3878">
+      <item valueDataType="string" value="n" name="10" variable="true"/>
+      <item valueDataType="number" value="1" name="11"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AIMovieClip3881">
+      <item valueDataType="string" value="n" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="2" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="gotoAndStop" target="AIMovieClip3881">
+      <item valueDataType="number" value="2" name="4"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="AIMovieClip3881">
+      <item valueDataType="string" value="n" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="1" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="gotoAndStop" target="AIMovieClip3881">
+      <item valueDataType="number" value="1" name="4"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnTweenCompleteEvent" callName="onTweenComplete" isTrigger="true" target="shadow">
+      <item valueDataType="string" value="%22intro%22" name="key"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="wait" target="System">
+      <item valueDataType="number" value="1" name="time"/>
+    </item>
+    <item type="action" persistent="true" callTarget="instance" callName="execTween" target="shadow">
+      <item valueDataType="string" value="%22intro2%22" name="key"/>
+      <item valueDataType="number" value="200" name="x"/>
+      <item valueDataType="number" value="" name="y"/>
+      <item valueDataType="number" value="" name="anchorX"/>
+      <item valueDataType="number" value="" name="anchorY"/>
+      <item valueDataType="number" value="" name="width"/>
+      <item valueDataType="number" value="" name="height"/>
+      <item valueDataType="number" value="" name="rotation"/>
+      <item valueDataType="number" value="" name="alpha"/>
+      <item valueDataType="number" value="2000" name="duration"/>
+      <item valueDataType="string" value="%22line%22" name="ease"/>
+      <item valueDataType="number" value="0" name="waitTime"/>
+      <item valueDataType="number" value="0" name="loop"/>
+      <item valueDataType="number" value="1" name="scaleX"/>
+      <item valueDataType="number" value="1" name="scaleY"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnTweenCompleteEvent" callName="onTweenComplete" isTrigger="true" target="shadow">
+      <item valueDataType="string" value="%22intro2%22" name="key"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="destory" target="shadow"/>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="开启碰撞" name="10" variable="true"/>
+      <item valueDataType="any" value="1" name="9"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="createObject" target="System">
+      <item valueDataType="string" value="alien" name="23" isFamily="false"/>
+      <item valueDataType="number" value="0" name="22"/>
+      <item valueDataType="number" value="200" name="21"/>
+      <item valueDataType="number" value="200" name="20"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="alien">
+      <item valueDataType="string" value="fire" name="10" variable="true"/>
+      <item valueDataType="any" value="0" name="11"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setIsActive" target="alien" behaviorName="物理">
+      <item valueDataType="number" value="2" name="isActive"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="接受触屏" name="10" variable="true"/>
+      <item valueDataType="any" value="0" name="9"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="alien">
+      <item valueDataType="string" value="fire" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="0" name="value"/>
+    </item>
+    <item type="condition" callTarget="instance" paramsClass="CompareVariableEvent" callName="compareVariable" isTrigger="false" target="System">
+      <item valueDataType="string" value="接受触屏" name="variable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="0" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setPosition" target="alien">
+      <item valueDataType="number" value="200" name="16"/>
+      <item valueDataType="number" value="200" name="17"/>
+    </item>
+    <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+      <item type="condition" callTarget="instance" paramsClass="IsTouchDownEvent" callName="isTouchDown" isTrigger="false" target="Touch"/>
+      <item type="action" persistent="false" callTarget="instance" callName="setAngle" target="alien">
+        <item valueDataType="number" value="ls.angle(Touch.touchSceneX%2CTouch.touchSceneY%2C200%2C200)" name="10"/>
+      </item>
+      <item type="action" persistent="false" callTarget="instance" callName="moveAtAngle" target="alien">
+        <item valueDataType="number" value="alien.angle%2B180" name="14"/>
+        <item valueDataType="number" value="ls.min(ls.distance(Touch.touchSceneX%2CTouch.touchSceneY%2C200%2C200)%2F1.5%2C150)" name="15"/>
+      </item>
+      <item type="action" persistent="false" callTarget="instance" callName="rotateTowardPosition" target="daizi1">
+        <item valueDataType="number" value="Touch.touchSceneX" name="1"/>
+        <item valueDataType="number" value="Touch.touchSceneY" name="2"/>
+        <item valueDataType="number" value="180" name="3"/>
+      </item>
+      <item type="action" persistent="false" callTarget="instance" callName="rotateTowardPosition" target="daizi2">
+        <item valueDataType="number" value="Touch.touchSceneX" name="1"/>
+        <item valueDataType="number" value="Touch.touchSceneY" name="2"/>
+        <item valueDataType="number" value="180" name="3"/>
+      </item>
+      <item type="action" persistent="false" callTarget="instance" callName="setWidth" target="daizi1">
+        <item valueDataType="number" value="ls.min(ls.distance(Touch.touchSceneX%2CTouch.touchSceneY%2C200%2C200)%2F1.5%2C150)%2B10" name="16"/>
+      </item>
+      <item type="action" persistent="false" callTarget="instance" callName="setWidth" target="daizi2">
+        <item valueDataType="number" value="ls.min(ls.distance(Touch.touchSceneX%2CTouch.touchSceneY%2C200%2C200)%2F1.5%2C150)%2B20" name="16"/>
+      </item>
+    </item>
+    <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+      <item type="condition" callTarget="instance" paramsClass="OnTouchEndEvent" callName="onTouchEnd" isTrigger="true" target="Touch"/>
+      <item type="action" persistent="false" callTarget="instance" callName="setValue" target="alien">
+        <item valueDataType="string" value="fire" name="10" variable="true"/>
+        <item valueDataType="any" value="1" name="11"/>
+      </item>
+      <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+        <item valueDataType="string" value="接受触屏" name="10" variable="true"/>
+        <item valueDataType="any" value="1" name="9"/>
+      </item>
+      <item type="action" persistent="false" callTarget="instance" callName="setAngle" target="daizi1">
+        <item valueDataType="number" value="180" name="10"/>
+      </item>
+      <item type="action" persistent="false" callTarget="instance" callName="setAngle" target="daizi2">
+        <item valueDataType="number" value="180" name="10"/>
+      </item>
+      <item type="action" persistent="false" callTarget="instance" callName="setWidth" target="daizi1">
+        <item valueDataType="number" value="20" name="16"/>
+      </item>
+      <item type="action" persistent="false" callTarget="instance" callName="setWidth" target="daizi2">
+        <item valueDataType="number" value="50" name="16"/>
+      </item>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="IsObjectMovingEvent" callName="isObjectMoving" isTrigger="false" target="alien" invert="true"/>
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="alien">
+      <item valueDataType="string" value="fire" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="2" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="spawn" target="alien">
+      <item valueDataType="string" value="shadow" name="10" isFamily="false"/>
+      <item valueDataType="number" value="0" name="11"/>
+      <item valueDataType="number" value="0" name="12"/>
+      <item valueDataType="number" value="0" name="13"/>
+      <item valueDataType="number" value="0" name="14"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="spawn" target="alien">
+      <item valueDataType="string" value="AISprite3911" name="10" isFamily="false"/>
+      <item valueDataType="number" value="0" name="11"/>
+      <item valueDataType="number" value="0" name="12"/>
+      <item valueDataType="number" value="0" name="13"/>
+      <item valueDataType="number" value="0" name="14"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="destory" target="alien"/>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="FadeOnFadeOutFinishedEvent" callName="onFadeOutFinished" isTrigger="true" target="AISprite3911" behaviorName="淡入淡出"/>
+    <item type="action" persistent="true" callTarget="instance" callName="execTween" target="shadow">
+      <item valueDataType="string" value="%22back%22" name="key"/>
+      <item valueDataType="number" value="200" name="x"/>
+      <item valueDataType="number" value="200" name="y"/>
+      <item valueDataType="number" value="" name="anchorX"/>
+      <item valueDataType="number" value="" name="anchorY"/>
+      <item valueDataType="number" value="" name="width"/>
+      <item valueDataType="number" value="" name="height"/>
+      <item valueDataType="number" value="" name="rotation"/>
+      <item valueDataType="number" value="" name="alpha"/>
+      <item valueDataType="number" value="1000" name="duration"/>
+      <item valueDataType="string" value="%22circOut%22" name="ease"/>
+      <item valueDataType="number" value="0" name="waitTime"/>
+      <item valueDataType="number" value="0" name="loop"/>
+      <item valueDataType="number" value="1" name="scaleX"/>
+      <item valueDataType="number" value="1" name="scaleY"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareInstanceVariableEvent" callName="compareInstanceVariable" isTrigger="false" target="alien">
+      <item valueDataType="string" value="fire" name="instanceVariable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="1" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="alien">
+      <item valueDataType="string" value="fire" name="10" variable="true"/>
+      <item valueDataType="any" value="2" name="11"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setIsActive" target="alien" behaviorName="物理">
+      <item valueDataType="number" value="1" name="isActive"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="applyForceByAngle" target="alien" behaviorName="物理">
+      <item valueDataType="number" value="2" name="forceType"/>
+      <item valueDataType="number" value="alien.angle" name="angle"/>
+      <item valueDataType="number" value="ls.min(ls.distance(Touch.touchSceneX%2CTouch.touchSceneY%2C200%2C200)%2F1.5%2C150)%2F2" name="maxForce"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setIsActive" target="AISprite4487" behaviorName="物理">
+      <item valueDataType="number" value="1" name="isActive"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnTweenCompleteEvent" callName="onTweenComplete" isTrigger="true" target="shadow">
+      <item valueDataType="string" value="%22back%22" name="key"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="destory" target="shadow"/>
+    <item type="action" persistent="false" callTarget="instance" callName="createObject" target="System">
+      <item valueDataType="string" value="alien" name="23" isFamily="false"/>
+      <item valueDataType="number" value="0" name="22"/>
+      <item valueDataType="number" value="200" name="21"/>
+      <item valueDataType="number" value="200" name="20"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="alien">
+      <item valueDataType="string" value="fire" name="10" variable="true"/>
+      <item valueDataType="any" value="0" name="11"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setIsActive" target="alien" behaviorName="物理">
+      <item valueDataType="number" value="2" name="isActive"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setAngle" target="alien">
+      <item valueDataType="number" value="0" name="10"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="接受触屏" name="10" variable="true"/>
+      <item valueDataType="any" value="0" name="9"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="CompareVariableEvent" callName="compareVariable" isTrigger="false" target="System">
+      <item valueDataType="string" value="开启碰撞" name="variable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="1" name="value"/>
+    </item>
+    <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+      <item type="condition" callTarget="instance" paramsClass="OnCollisionWithOtherObjectEvent" callName="onCollisionWithOtherObject" isTrigger="true" target="AISprite3917">
+        <item valueDataType="string" value="AISprite3878" name="object" isFamily="false"/>
+      </item>
+      <item type="action" persistent="false" callTarget="instance" callName="subtractFrom" target="AISprite3917">
+        <item valueDataType="string" value="hp" name="10" variable="true"/>
+        <item valueDataType="number" value="1" name="11"/>
+      </item>
+    </item>
+    <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+      <item type="condition" callTarget="instance" paramsClass="OnCollisionWithOtherObjectEvent" callName="onCollisionWithOtherObject" isTrigger="true" target="AISprite3917">
+        <item valueDataType="string" value="AIMovieClip3881" name="object" isFamily="false"/>
+      </item>
+      <item type="action" persistent="false" callTarget="instance" callName="subtractFrom" target="AISprite3917">
+        <item valueDataType="string" value="hp" name="10" variable="true"/>
+        <item valueDataType="number" value="1" name="11"/>
+      </item>
+    </item>
+  </item>
+</eventSheets>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventSheets layout="MainScene" previous="" next="" version="2.2">
+  <item type="instance" UID="4546"/>
+  <item type="instance" UID="4544"/>
+  <item type="instance" UID="4541"/>
+  <item type="instance" UID="4539"/>
+  <item type="instance" UID="4537"/>
+  <item type="instance" UID="4522"/>
+  <item type="instance" UID="4519"/>
+  <item type="instance" UID="4513"/>
+  <item type="instance" UID="4502"/>
+  <item type="variable" variableName="isExistActiveBrick" variableType="boolean" initValue="false"/>
+  <item type="variable" variableName="currentActiveBrick" variableType="number" initValue="0"/>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="EveryXSecondsEvent" callName="everyXSecondEvent" isTrigger="false" target="System">
+      <item valueDataType="number" value="1" name="interval"/>
+    </item>
+    <item type="condition" callTarget="instance" paramsClass="CompareVariableEvent" callName="compareVariable" isTrigger="false" target="System">
+      <item valueDataType="string" value="isExistActiveBrick" name="variable" variable="true"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="false" name="value"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="spawn" target="BrickGenerator">
+      <item valueDataType="string" value="Brick" name="10" isFamily="false"/>
+      <item valueDataType="number" value="10" name="11"/>
+      <item valueDataType="number" value="0" name="12"/>
+      <item valueDataType="number" value="" name="13"/>
+      <item valueDataType="number" value="0" name="14"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="isExistActiveBrick" name="10" variable="true"/>
+      <item valueDataType="any" value="true" name="9"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="currentActiveBrick" name="10" variable="true"/>
+      <item valueDataType="any" value="Brick.u_id" name="9"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="EveryXSecondsEvent" callName="everyXSecondEvent" isTrigger="false" target="System">
+      <item valueDataType="number" value="1" name="interval"/>
+    </item>
+    <item type="condition" callTarget="instance" paramsClass="CompareTwoValuesEvent" callName="compareTwoValue" isTrigger="false" target="Brick">
+      <item valueDataType="any" value="Brick.u_id" name="value1"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="System.currentActiveBrick" name="value2"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setPositionToAnotherObject" target="Brick">
+      <item valueDataType="string" value="Brick" name="16" isFamily="false"/>
+      <item valueDataType="number" value="0" name="17"/>
+      <item valueDataType="number" value="Brick.height" name="18"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setText" target="BrickHeight">
+      <item valueDataType="string" value="Brick.y" name="1"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnCollisionWithOtherObjectEvent" callName="onCollisionWithOtherObject" isTrigger="true" target="Brick">
+      <item valueDataType="string" value="BottomSprite" name="object" isFamily="false"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="currentActiveBrick" name="10" variable="true"/>
+      <item valueDataType="any" value="0" name="9"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="isExistActiveBrick" name="10" variable="true"/>
+      <item valueDataType="any" value="false" name="9"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setText" target="Collisioned">
+      <item valueDataType="string" value="%22YES%22" name="1"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnCollisionWithOtherObjectEvent" callName="onCollisionWithOtherObject" isTrigger="true" target="Brick">
+      <item valueDataType="string" value="Brick" name="object" isFamily="false"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="currentActiveBrick" name="10" variable="true"/>
+      <item valueDataType="any" value="0" name="9"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setValue" target="System">
+      <item valueDataType="string" value="isExistActiveBrick" name="10" variable="true"/>
+      <item valueDataType="any" value="false" name="9"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnKeyDownEvent" callName="onkeyDown" isTrigger="true" target="Keyboard">
+      <item valueDataType="number" value="37" name="key"/>
+    </item>
+    <item type="condition" callTarget="instance" paramsClass="CompareTwoValuesEvent" callName="compareTwoValue" isTrigger="false" target="Brick">
+      <item valueDataType="any" value="Brick.u_id" name="value1"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="System.currentActiveBrick" name="value2"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setPositionToAnotherObject" target="Brick">
+      <item valueDataType="string" value="Brick" name="16" isFamily="false"/>
+      <item valueDataType="number" value="-40" name="17"/>
+      <item valueDataType="number" value="0" name="18"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnKeyDownEvent" callName="onkeyDown" isTrigger="true" target="Keyboard">
+      <item valueDataType="number" value="39" name="key"/>
+    </item>
+    <item type="condition" callTarget="instance" paramsClass="CompareTwoValuesEvent" callName="compareTwoValue" isTrigger="false" target="Brick">
+      <item valueDataType="any" value="Brick.u_id" name="value1"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="System.currentActiveBrick" name="value2"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setPositionToAnotherObject" target="Brick">
+      <item valueDataType="string" value="Brick" name="16" isFamily="false"/>
+      <item valueDataType="number" value="40" name="17"/>
+      <item valueDataType="number" value="0" name="18"/>
+    </item>
+  </item>
+  <item type="event" conditionRelationShip="true" triggerOnceWhileTrue="false">
+    <item type="condition" callTarget="instance" paramsClass="OnKeyDownEvent" callName="onkeyDown" isTrigger="true" target="Keyboard">
+      <item valueDataType="number" value="40" name="key"/>
+    </item>
+    <item type="condition" callTarget="instance" paramsClass="CompareTwoValuesEvent" callName="compareTwoValue" isTrigger="false" target="Brick">
+      <item valueDataType="any" value="Brick.u_id" name="value1"/>
+      <item valueDataType="string" value="%22equalTo%22" name="operationType"/>
+      <item valueDataType="any" value="System.currentActiveBrick" name="value2"/>
+    </item>
+    <item type="action" persistent="false" callTarget="instance" callName="setPositionToAnotherObject" target="Brick">
+      <item valueDataType="string" value="Brick" name="16" isFamily="false"/>
+      <item valueDataType="number" value="0" name="17"/>
+      <item valueDataType="number" value="40" name="18"/>
+    </item>
+  </item>
+</eventSheets>
